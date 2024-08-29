@@ -26,9 +26,9 @@ function includeView(string $view, array $data = array()){
     $viewFile = APP_ROOT. DIRECTORY_SEPARATOR. 'views'. DIRECTORY_SEPARATOR. $path. '.php';
 
     if (file_exists($viewFile)) {
-        extract($data);
         include($viewFile);
     } else {
         throw new Exception("View file not found: $viewFile");
     }
 }
+
