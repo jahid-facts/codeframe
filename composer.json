@@ -1,0 +1,20 @@
+{
+  "name": "vendor/codefram",
+  "description": "my custom framework",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/Helpers.php",
+      "app/Services/AppService.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Md Jahid Hasan",
+      "email": "jahid.facts@gmail.com"
+    }
+  ],
+  "require": {}
+}
