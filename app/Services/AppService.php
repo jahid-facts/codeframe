@@ -9,7 +9,7 @@ function redirect(string $url){
 // render view 
 function view(string $view, array $data = array()){
     $path = str_replace(".", DIRECTORY_SEPARATOR, $view);
-    $viewFile = APP_ROOT . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . $path . '.php';
+    $viewFile = APP_ROOT . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . $path . '.fram.php';
 
     if (file_exists($viewFile)) {
         extract($data);
@@ -23,7 +23,7 @@ function view(string $view, array $data = array()){
 
 function includeView(string $view, array $data = array()){
     $path = str_replace(".", DIRECTORY_SEPARATOR, $view);
-    $viewFile = APP_ROOT. DIRECTORY_SEPARATOR. 'views'. DIRECTORY_SEPARATOR. $path. '.php';
+    $viewFile = APP_ROOT. DIRECTORY_SEPARATOR. 'views'. DIRECTORY_SEPARATOR. $path. '.fram.php';
 
     if (file_exists($viewFile)) {
         include($viewFile);
