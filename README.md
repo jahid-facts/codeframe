@@ -102,7 +102,7 @@ class HomeController extends Controller {
 
 ### ✅ Template
 ```html
-<!-- views/home.cf.php -->
+<!-- views/home.fram.php -->
 @extends('layouts.master')
 
 @section('content')
