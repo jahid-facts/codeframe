@@ -35,7 +35,7 @@ composer.lock      # Composer lock file
 ## ⚡ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/codefram.git
+   git clone https://github.com/jahid-facts/codefram.git
    cd codefram
    ```
 
